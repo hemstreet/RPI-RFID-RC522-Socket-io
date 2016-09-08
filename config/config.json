@@ -1,0 +1,24 @@
+{
+  "events" : {
+    "willDetect" : "RFID:WillDetectCard",
+    "didDetect" : "RFID:DidDetectCard",
+    "willRead" : "RFID:WillDetectCard",
+    "didRead" : "RFID:DidReadCard",
+    "willSendAuthenticationError" : "RFID:WillSendAuthenticationError",
+    "didSendAuthenticationError": "RFID:DidSendAuthenticationError",
+    "willApprove": "RFID:WillApproveCard",
+    "didApprove": "RFID:DidApproveCard"
+  },
+  "mock" : {
+    "willApprove" : {
+      "status": 0,
+      "UUID": "166,210,43,18",
+      "key": [ 255, 255, 255, 255, 255, 255 ]
+    },
+    "willSendAuthenticateError": {
+      "status": 2,
+      "UUID": "195,49,23,219",
+      "key": [ 255, 255, 255, 255, 255, 255 ]
+    }
+  }
+}

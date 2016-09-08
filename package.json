@@ -1,0 +1,17 @@
+{
+  "name": "rfid-server",
+  "version": "1.0.0",
+  "description": "Node server socket support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jon Hemstreet",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "socket.io": "^1.4.8",
+    "yargs": "^5.0.0"
+  }
+}
