@@ -19,3 +19,6 @@ On the server
 
 On the Pi
 `python Socket.io`
+
+Update you socketio endpoint in python by editing the `socketIO = SocketIO('localhost', 8000)`
+ line, to your IP and the port
